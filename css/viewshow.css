@@ -1,0 +1,175 @@
+h1{
+    font-family: '华文彩云';
+    font-size: 45px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+body{
+    color: black;
+}
+.mainbody {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.sedbody {
+    width: 980px;
+    height: 365px;
+    border: none;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.sedbody img {
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 5% 5%;
+    cursor: pointer;
+    margin-bottom: 40px;
+}
+
+.banner
+{
+    height: 500px;
+    margin: 0 auto;
+}
+
+.banner img
+{
+    width: 1200px;
+    height: 450px;
+    position: absolute;
+    margin: 0 auto;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.ol p{
+    font-size: 22px;
+    line-height: 25px;
+    margin-top: 10px;
+}
+
+.thidiv {
+    width: 1200px;
+    height: auto;
+    background-color: #fff;
+}
+
+.thidiv1 {
+    width: 1200px;
+    height: 400px;
+    margin: 10px auto;
+    background-color: #ffff;
+}
+
+.thidiv1 img {
+    border-radius: 1% 1%;
+}
+
+.thidiv1-1 {
+    float: left;
+    margin-left: 200px;
+}
+
+.thidiv1 ol li {
+    font-size:medium;
+    height: 50px;
+}
+
+.thidiv1-3 {
+    float: left;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+.thidiv2-1 {
+    margin-left: 400px;
+}
+
+.thidiv2-3 img{
+    margin-left: 18px;
+    margin-top: -205px;
+    margin: left;
+}
+.foudiv1 .title-h3
+{
+    text-align: center;
+    margin-left: 50px;
+}
+
+.ol1 {
+    margin-left: 355px;
+    float: left;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.ol2{
+    font-size: 30px;
+    line-height: 50px;
+    font-size: 25px;
+    margin-top: 100px;
+    margin-right: 90px;
+}
+.ol{
+    font-size: 40px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.foudiv {
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+.foudiv1 {
+    font-size: 20px;
+    float: left;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.foudiv-img1 {
+    margin-top: 160px;
+    margin-left: 67px;
+}
+
+.foudiv-img2 {
+    margin-left: 910px;
+    margin-top: -190px;
+}
+
+.foudiv-img3 {
+    margin-left: 490px;
+    margin-top: -150px;
+}
+
+.foudiv-img4 {
+    margin-left: 700px;
+    margin-top: -80px;
+}
+
+.foudiv-img5 {
+    margin-left: 280px;
+    margin-top: -200px;
+}
+
+.foudiv-img6 {
+    margin-left: 910px;
+    margin-top: -190px;
+}
+
+.foudiv-img7 {
+    margin-left: 490px;
+    margin-top: -150px;
+}

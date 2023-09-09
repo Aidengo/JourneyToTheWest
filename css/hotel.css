@@ -1,0 +1,107 @@
+@charset "utf-8";
+	
+.top{
+    height: 454px;width: 100%;
+    text-align: center;
+}
+.top img{
+    height:454px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.banner-in img{
+    height: 150px;
+    width: 190px;
+    float: right;
+}
+.banner{
+    width: 100%;
+    text-align: center;
+}
+.banner-in{
+    width: 1200px;
+    margin: 0 auto;
+    border-bottom:black solid 1px;
+    text-align: left;height: 460px;
+    margin-top: 40px;
+}
+.banner-in h3{
+    height: 50px;
+    width: 400px;
+    line-height: 45px;
+    font-size:28px;
+}
+.banner-in h3 span{
+    padding-top: 190px;
+    display: block;
+}
+.pic-one{
+    position:relative;
+    right: 620px;
+    top: 105px;
+}
+.pic-two{
+    position: relative;
+    right:225px;
+    top: 25px;
+}
+.pic-three{
+    position: relative;
+    right: 35px;
+    top:195px;
+}
+.pic-four{
+    position: relative;
+    right: -360px;
+    top: -10px;
+}
+.pic-five{
+    position: relative;
+    left: 550px;
+    top: 160px;
+}
+.pic-six{
+    position: relative;
+    left: 945px;
+    top: 60px;
+}
+.pic-seven{
+    position: relative;
+    top: 80px;
+    right:5px;
+}
+.reco-into{
+    height: 450px;
+    margin-bottom: 30px;
+}
+.reco-left img{
+    height: 350px;
+    width: 400px;
+    margin-top: 75px;
+    float: left;
+    border-radius: 3%;
+    margin-top: 60px;
+}
+.reco-right{
+    height: 450px;
+    width: 300px;
+    float: right;
+    margin-top: 30px;
+}
+.reco-right p{
+    text-align: left;
+    line-height: 35px;
+    font-family: "行书";
+}
+.reco-right p span{
+    color: #ef4d50;
+}
+.reco{
+    width: 100%;
+    text-align: center;
+}
+.reco-in{
+    width: 800px;
+    margin: 0 auto;
+    height: 2700px;
+}

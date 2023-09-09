@@ -1,0 +1,284 @@
+body{
+    width: 100%;
+    margin: 0 auto;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+    line-height: 1.5;
+    background-color: #f5f5f5!important;
+}
+.banner img{
+    width: 100%;
+    height: 410px;
+}
+.culture
+{
+    height: 650px;
+}
+.cul-title
+{
+    clear: both;
+    width: 260px;
+    height: 55px;
+    margin: 100px auto 35px auto;
+    border: 1px solid #f398afdc;
+    text-align: center;
+}
+.cul-title p
+{
+    color: #f398afdc;
+    text-transform: uppercase;
+    font-family: 'Times New Roman';
+    font-size: 28px;
+    font-weight: bold;
+    background-color: #fff;
+    margin: -20px auto -2px auto;
+    width: 170px;
+}
+.cul-title span
+{
+    display: block;
+    font-family: '幼圆';
+    font-size: 25px;
+    font-weight: bold;
+} 
+.int-text
+{
+    width: 550px;
+    margin-left: 12px;
+}
+.int-text h2
+{
+    font-family: '幼圆';
+    color: #000;
+}
+.int-text p
+{
+    font-size: 18px;
+    color: #204346;
+}
+.int-left
+{
+    width: 195px;
+    margin-left: 5px;
+}
+.int-left img
+{
+    width: 185px;
+    margin: 5px;
+}
+.int-left img:hover
+{
+    width: 200px;
+    height: 155px;
+    box-shadow: 3px 3px 14px 8px #746c62;
+}
+.int-middle
+{
+    width: 190px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.int-middle img
+{
+    width: 180px;
+    height: 180px;
+    margin: 5px;
+}
+.int-middle img:hover
+{
+    width: 195px;
+    height: 195px;
+    box-shadow: 3px 3px 14px 8px #746c62;
+}
+.int-right{
+    width: 190px;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+.int-right img
+{
+    width: 180px;
+    margin: 5px;
+}
+.int-right img:hover
+{
+    width: 200px;
+    height: 280px;
+    box-shadow: 3px 3px 14px 8px #746c62;
+}
+.int-text,.int-left,.int-middle,.int-right
+{
+    float: left;
+}
+.tasty h1{
+    font-family: '华文彩云';
+    font-size: 45px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.tasty img
+{
+    width: 210px;
+    height: 200px;
+    padding: 12px 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateZ(100px);
+}
+.tasty1,.tasty2,.tasty3,.tasty4,.tasty5,.tasty6,.tasty7,.tasty8
+{
+    width: 230px;
+    height: 230px;
+    border: hsla(0, 6%, 73%, 0.856) solid;
+    float: left;
+    margin-left: 40px; 
+    position: relative;
+    transition: all 1s ease 0s;
+    transform-style: preserve-3d;
+}
+.tasty p
+{
+    width: 230px;
+    height: 230px;
+    color: #000;
+    transform: rotateX(90deg) translateZ(100px);
+}
+.tasty1:hover,.tasty2:hover,.tasty3:hover,.tasty4:hover,.tasty5:hover,.tasty6:hover,.tasty7:hover,.tasty8:hover
+{
+    transform: rotateX(-90deg);
+}
+.tasty1:visited,.tasty2:visited,.tasty3:visited,.tasty4:visited,.tasty5:visited,.tasty6:visited,.tasty7:visited,.tasty8:visited
+{
+    transform: rotateX(-90deg);
+    transition: all 1s ease 0s;
+    transform-style: preserve-3d;
+}
+.tasty1,.tasty2,.tasty3,.tasty4
+{
+    margin-top: 20px;
+}
+.tasty5,.tasty6,.tasty7,.tasty8
+{
+    margin-top: 50px;
+}
+.tasty
+{
+    height: 650px;
+    margin-left: 50px;
+}
+h1
+{
+    font-family: '华文彩云';
+    color: #446f93;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.content
+{
+    height: 500px;
+}
+.con-left
+{
+    width: 350px;
+    margin-left: 25px;
+}
+.custom1 img
+{
+    width: 350px;
+    height: 220px;
+    margin-top: 55px;
+}
+.custom1 img:hover
+{
+    width: 336px;
+    height: 205px;
+}
+.custom2 img,.custom3 img
+{
+    width: 160px;
+    height: 105px;
+    margin-top: 18px;
+    float: left;
+}
+.custom2 img:hover,.custom3 img:hover
+{
+    width: 170px;
+    height: 115px;
+}
+.custom2 img
+{
+    margin-left: 5px;
+}
+.custom3 img
+{
+    margin-left: 15px;
+}
+.con-middle
+{
+    font-size: 16px;
+    color: #000;
+    line-height: 24px;
+    width: 400px;
+    margin-left: 30px;
+}
+.con-middle img
+{
+    width: 370px;
+    height: 200px;
+    margin-left: 10px;
+}
+.con-middle img:hover
+{
+    width: 375px;
+    height: 205px;
+}
+.con-middle p:hover
+{
+    font-size: 17px;
+    color: #fa5a29;
+}
+.con-right
+{
+    width: 350px;
+    margin-left: 20px;
+}
+.custom4 img,.custom5 img
+{
+    width: 160px;
+    height: 105px;
+    margin-top: 55px;
+    float: left;
+}
+.custom4 img:hover,.custom5 img:hover
+{
+    width: 170px;
+    height: 115px;
+}
+.custom4 img
+{
+    margin-left: 5px;
+}
+.custom5 img
+{
+    margin-left: 15px;
+}
+.custom6 img
+{
+    width: 350px;
+    height: 220px;
+    margin-top: 18px;
+}
+.custom6 img:hover
+{
+    width: 356px;
+    height: 225px;
+}
+.con-left,.con-middle,.con-right
+{
+    float: left;
+}

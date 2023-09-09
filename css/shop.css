@@ -1,0 +1,462 @@
+/* 把所有标签的内外边距清零 */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    font-family: Arial,'微软雅黑',Helvetica, sans-serif;
+    background: #fff;
+    color: #7f7f80;
+}
+/* 去掉li的小圆点 */
+li{
+    list-style: none;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+/* 版心 */
+.wrapper
+{
+    width: 1200px;
+    margin: 0 auto;
+}
+/* 设置整个文创网页的body */
+body{
+    width: 100%;
+    margin: 0 auto;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+    line-height: 1.5;
+    background-color: #f5f5f5!important;
+}
+.top-menu
+{
+    font-size: 12px;
+    color: #fff;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background:#d8b571;
+}
+.top-name
+{
+    float: left;
+}
+.login
+{
+    float: right;
+}
+.login a{
+    color: #fff;
+    text-decoration: none;
+}
+.login a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.nav
+{
+    height: 100px;
+    background-color: #00678c;
+}
+.nav a{
+    color: #fff;
+    text-decoration: none;
+}
+.nav a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.title
+{
+font-family: "华文行楷";
+font-size: 45px;
+color: #00678c;
+background-color: #fff;
+height: 100px;
+width: 160px;
+line-height: 100px;
+padding-left: 10px;
+margin-left: 45px;
+float: left;
+}
+.navbar
+{
+    font-size: 16px;
+    color: #fff;
+    line-height: 100px;
+}
+.nav ul li
+{
+    margin-right: 20px;
+    float:right;
+}
+.middle{
+    width: 100%;
+    margin-top: -12px;
+    margin-bottom: 60px;
+}
+/* 设置中间部分的a标签 */
+.middle a{
+    color: #666;
+    text-decoration: none;
+}
+/* 设置中间部分的ul列表 */
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/* 设置中间部分的图片居中 */
+.middle img{
+    vertical-align: middle;
+}
+/* 中间部分的app start */
+.middle .app{
+    height: 45px;
+}
+.middle .app ul li{
+    float: left;
+    height: 45px;
+    line-height: 45px;
+    background-color: #333333;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+.middle .app ul li:nth-child(1){
+    width: 75%;
+    font-size: 20px;
+}
+.middle .app ul li:nth-child(2){
+    width: 25%;
+    background-color: #f63515;
+}
+/* 设置中间部分的 app end  */
+/* 设置中间部分的搜索 start */
+.middle .search-wrap{
+    position: absolute;
+    overflow: hidden;
+    width: 68%;
+    height: 48px;
+}
+.middle .search-login{
+    position: absolute;
+    right: 0;
+    top: 3px;
+    width: 40px;
+    height: 44px;
+    font-size: 16px;
+    color: #f3cccc;
+    line-height: 44px;
+}
+.middle .search{
+    position: relative;
+    height: 33px;
+    background-color: #fff;
+    margin: 0 50px;
+    border-radius: 15px;
+    margin-top: 7px;
+}
+.middle .hehua{
+    width: 22px;
+    height: 20px;
+    position: absolute;
+    top: 8px;
+    left: 20px;
+    background:url(../images/shop16.png);
+    background-size: 22px 20px;
+}
+.search input{
+    width: 650px;
+    height: 30px;
+    position: absolute;
+    left: 52px;
+    top: 2px;
+    border:1px solid #fff;
+    outline: none;
+}
+.middle .hehua::after{
+    content: "";
+    position: absolute;
+    right: -10px;
+    top: 0;
+    display: block;
+    width: 1px;
+    height: 21px;
+    background-color: #ccc;
+
+}
+/* 设置中间部分的搜索 end */
+/* 滑动图 */
+.middle .slider img{
+    width: 100%;
+    height: 330px;
+}
+/* 设置中间部分的文字 */
+.middle .content{
+    margin-top: 7px;
+}
+.middle .content p{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 7px;
+}
+/* 设置中间部分的分类 */
+.middle .classfy{
+    width: 65%;
+    height: 160px;
+    padding-top: 5px;
+    margin: 0 auto;
+}
+.middle .classfy a{
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+.middle .classfy a img{
+    width: 70px;
+    margin: 10px 0;
+    border-radius: 50%;
+}
+.middle .classfy a span{
+    display: block;
+}
+/* middle end  */
+/* down start */
+.down{
+    background-color: #f5f5f5;
+}
+@media screen and (min-width:1280px) {
+    .container{
+        width:1280px
+    }    
+}
+/* left start  */
+.down .left{
+    padding-left: 0!important;
+}
+.down .logo{
+    background-color: #086b8a;
+}
+.down .logo img{
+    display: block;
+    margin: 0 auto;
+    height: 120px;
+    width: 100%;
+}
+.down .logo span{
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+.down .left .brand{
+    height: 260px;
+    margin-top: -10px;
+    background-color: #f1eded;
+    border-bottom: 1px solid #ccc;
+}
+.down .left .brand a{
+    display: block;
+    height: 50px;
+    color: #666;
+    line-height: 50px;
+    margin-right: 16px;
+    font-size: 16px;
+}
+.down .brand a:hover{
+    background-color: #fff;
+    text-decoration: none;
+    color: #333;
+}
+.down .brand a::before{
+    vertical-align: middle;
+    padding-right: 5px;
+}
+/* left end */
+@media screen and (max-width:991px){
+    .brand li{
+        float: left;
+        width: 20%;
+    }
+    .center{
+        margin-top: 10px;
+    }
+    .right{
+        margin-top: 10px;
+    }
+}
+/* center start */
+@media screen and (max-width:767px) {
+    .down.brand li a{
+        font-size: 14px;
+        padding-left: 0px;
+        text-align: center;
+    }
+    .down .main ul .p1{
+        width: 100%;
+    }
+    .down .main ul .p2{
+        width: 50%;
+    }
+    .down .brand h4{
+        font-size: 14px;
+    }
+}
+.down .main li{
+    float: left;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+.down .p1{
+    width: 46%;
+    height: 266px;
+    margin-right: 6px;
+}
+.down .p1 a,.down .p2 a{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.down .p1 img{
+    width: 100%;
+    height: 100%;
+}
+.down .p1 p{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 41px;
+    line-height: 41px;
+    padding: 0 10px;
+    margin-bottom: 0; 
+    background: rgba(0,0,0,0.5);
+    font-size: 20px;
+    color: #fff;
+}
+.down .p2{
+    width: 25%;
+    height: 128px;
+    margin-right: 10px;
+
+}
+.down .p2 img{
+    width: 100%;
+    height: 100%;
+}
+.down .p2 p{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 41px;
+    line-height: 41px;
+    padding: 0 10px;
+    margin-bottom: 0;
+    background: rgba(0,0,0,0.5);
+    font-size: 14px;
+    color: #fff;
+}
+.goods{
+    border-top: 1px solid #ccc;
+}
+.goods .row{
+    border-bottom: 1px solid #ccc;
+    padding-top: 10px;
+}
+.goods h4 a{
+    color:#333;
+}
+.goods h4 a:hover{
+    text-decoration: none;
+}
+.goods .p3 img{
+    width: 100%;
+    height: 180px;
+    padding: 0 10px 7px 0;
+}
+.goods .size{
+    font-size: 16px;
+}
+.goods .content{
+    font-size: 16px;
+}
+/* center end  */
+/* right start */
+.banner img{
+    width: 100%;
+    height: 130px;
+}
+.wen{
+    display: block;
+    margin-top: 20px;
+    padding: 0 20px 20px;
+    border: 1px solid #ccc;
+}
+.wen span{
+    border-radius: 0;
+    margin-bottom: 20px;
+}
+.wen p{
+    font-size: 15px;
+}
+.right a:hover{
+    text-decoration: none;
+}
+/* right end */
+.footer
+{
+    height: 250px;
+    background-color: #00678c;
+    color: #fff;
+}
+.footer ul {
+    float: left; 
+}
+.sort1{
+    margin-left: 110px;
+    margin-top: 50px;
+}
+.sort2{
+    margin-left: 180px;
+    margin-top: 50px;
+}
+.sort3{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.footer ul li
+{
+    margin-bottom: 10px;
+    list-style: disc;
+    font-size: 16px;
+    line-height: 5px;
+}
+.footer ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.footer .website
+{  
+    font-size: 45px;    /*底部网址 */
+    top: 185px;
+   padding-left:220px ;
+}
+/* 底部二维码图片格式 */
+.footer img{ 
+    width: 170px;    
+    height: 190px;
+    float: right;
+    margin-right: 120px;
+    padding-top: 30px;
+}

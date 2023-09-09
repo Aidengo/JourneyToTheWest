@@ -1,0 +1,88 @@
+body{
+    font-family: Arial,'微软雅黑',Helvetica, sans-serif;
+    background: #fff;
+    color: #7f7f80;
+}
+
+.top-name{
+    float: left;
+}
+
+.login{
+    float: right;
+}
+
+.nav{
+    height: 100px;
+    background-color: #00678c;
+}
+
+.title{
+    font-family: "华文行楷";
+    font-size: 45px;
+    color: #00678c;
+    background-color: #fff;
+    height: 100px;
+    width: 160px;
+    line-height: 100px;
+    padding-left: 25px;
+    margin-left: 45px;
+    float: left;
+}
+
+.navbar{
+    font-size: 16px;
+    color: #fff;
+    line-height: 100px;
+}
+
+ul li{
+    margin-right: 20px;
+    float:right;
+}
+
+.footer{
+    height: 250px;
+    background-color: #00678c;
+    color: #fff;
+}
+
+.footer ul {
+    float: left; 
+    /* 底部列表文字左浮动 */
+}
+
+.sort1{
+    margin-left: 110px;
+    margin-top: 50px;
+}
+
+.sort2{
+    margin-left: 160px;
+    margin-top: 50px;
+}
+
+.sort3{
+    margin-left: 220px;
+    margin-top: 50px;
+}
+
+.footer ul li{
+    margin-bottom: 10px;
+    list-style: disc;
+}
+
+.website{  
+    font-size: 45px;     /* 底部网址 */
+    padding-top: 165px;
+    padding-left: 220px;
+}
+
+.footer img{ 
+    width: 160px;    /* 底部二维码图片格式 */
+    height: 160px;
+    float: right;
+    padding-right: 140px;
+    padding-top: 30px;
+}
+

@@ -1,0 +1,40 @@
+.big_box {
+  height: 700px;
+}
+.left{
+  float: left;
+  margin-top: 50px;
+}
+.list_title{
+  margin-top: 50px;
+  font-weight: 400;
+  font-size: 27px;
+  color: #92b96b;
+}
+.list form {
+  margin-left: 130px;
+  margin-top: 15px;
+}
+.list input {
+  width: 340px;
+  height: 34px;
+  margin-left: 20px;
+}
+.list textarea {
+  width: 340px;
+  margin-left: 105px;
+}
+.bt_1,
+.bt_2 {
+  margin: 10px 0 0 137px;
+}
+.right{
+  width: 500px;
+  float: left;
+  margin-left: 120px;
+  margin-top: 120px;
+}
+.right img{
+  width: 360px;
+  height: 400px;
+}

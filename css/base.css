@@ -1,0 +1,25 @@
+/* 把所有标签的内外边距清零 */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "楷体";
+}
+/* 去掉li的小圆点 */
+li{
+    list-style: none;
+}
+a{
+    color: #fefdfd ;
+    text-decoration: none;
+}
+/* 版心 */
+.wrapper
+{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+
